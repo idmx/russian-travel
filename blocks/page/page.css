@@ -1,0 +1,9 @@
+.page {
+    background-color: #2A2C2F;
+    color: #fff;
+}
+    
+div, h1, h2, header, p, a, main {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
