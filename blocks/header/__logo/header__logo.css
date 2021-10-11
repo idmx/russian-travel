@@ -4,4 +4,12 @@
     height: 52px;
     margin: 0;
     padding: 0;
+    background-size: cover;
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    } 
 }
