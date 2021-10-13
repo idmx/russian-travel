@@ -1,31 +1,30 @@
 .place {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 80px;    
+    padding-bottom: 80px;
 }
 
 .place:last-child {
-    padding-bottom: 92px; 
+    padding-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        padding-bottom: 73px;    
+        padding-bottom: 73px;
     }
 
     .place:last-child {
-        padding-bottom: 90px; 
+        padding-bottom: 90px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .place {
         grid-template-columns: 1fr;
-        padding-bottom: 50px;    
+        padding-bottom: 50px;
     }
 
     .place:last-child {
-        padding-bottom: 66px; 
+        padding-bottom: 66px;
     }
 }
-
