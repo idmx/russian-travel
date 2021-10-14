@@ -3,31 +3,35 @@
     justify-content: space-between;
     margin: 28px auto 0;
     padding: 0;
-    max-height: 52px;
     max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .header {
-        max-width: 928px;
-    } 
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .header {
+        max-width: calc(100% - 60px);
+    }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
-    } 
+    }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .header {
         max-width: calc(100% - 32px);
-    } 
+    }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        max-width: 288px;
         margin-top: 16px;
-    } 
+    }
 }

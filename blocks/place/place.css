@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     padding-bottom: 80px;
 }
 
