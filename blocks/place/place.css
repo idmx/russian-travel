@@ -1,7 +1,8 @@
 .place {
     display: grid;
     grid-template-columns: 1fr auto;
-    padding-bottom: 80px;
+    padding: 0 0 80px;
+    margin: 0;
 }
 
 .place:last-child {
